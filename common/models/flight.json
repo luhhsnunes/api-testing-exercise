@@ -1,0 +1,47 @@
+{
+  "name": "flight",
+  "plural": "flights",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "data_partida": {
+      "type": "date",
+      "required": true
+    },
+    "data_chegada": {
+      "type": "date",
+      "required": true
+    },
+    "numero": {
+      "type": "string",
+      "required": true
+    },
+    "origem": {
+      "type": "object",
+      "required": true
+    },
+    "destino": {
+      "type": "object",
+      "required": true
+    },
+    "duracao": {
+      "type": "number",
+      "required": true
+    },
+    "lugares": {
+      "type": "number",
+      "required": true
+    },
+    "companhia": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
