@@ -2,7 +2,7 @@
 
 If you don't have vagrant yet, you can start downloading it from [here](http://www.vagrantup.com/downloads).
 
-Download vagrant box by running the command:
+Download Vagrant 1.6.5 box by running the command:
 
 `vagrant init hashicorp/precise32`
 
