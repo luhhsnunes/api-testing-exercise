@@ -1,8 +1,8 @@
 # Setting up Vagrant
 
-If you don't have vagrant yet, you can start downloading it from [here](http://www.vagrantup.com/downloads).
+If you don't have vagrant yet, you can start downloading it from [here](http://www.vagrantup.com/downloads). On this project we are using Vagrant 1.6.5.
 
-Download Vagrant 1.6.5 box by running the command:
+Download the vagrant box by running the command:
 
 `vagrant init hashicorp/precise32`
 
