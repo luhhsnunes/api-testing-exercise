@@ -1,0 +1,10 @@
+{
+"name": "rest_api_test",
+"author": "Nayara Moura",
+"main": "flight_test_spec.js",
+"version": "0.0.1",
+"dependencies": {
+    "frisby": "latest",
+    "jasmine-node": "latest"
+    }
+}
